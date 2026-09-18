@@ -1,5 +1,12 @@
-def greet(name):
-    return f"Hello, {name}!"
+def greet(name, language="English"):
+    if language == "English":
+        return f"Hello, {name}!"
+    elif language == "Spanish":
+        return f"Hola, {name}!"
+    elif language == "French":
+        return f"Bonjour, {name}!"
+    else:
+        return f"Hello, {name}!"
 
 
 if __name__ == "__main__":
