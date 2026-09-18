@@ -11,3 +11,7 @@ def test_greet_spanish():
 
 def test_greet_french():
     assert greet("Sumedh", "French") == "Bonjour, Sumedh!"
+
+
+def test_greet_german():
+    assert greet("Sumedh", "German") == "Hallo, Sumedh!"
