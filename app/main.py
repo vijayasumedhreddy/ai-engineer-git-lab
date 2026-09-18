@@ -5,6 +5,8 @@ def greet(name, language="English"):
         return f"Hola, {name}!"
     elif language == "French":
         return f"Bonjour, {name}!"
+    elif language == "German":
+        return f"Hallo, {name}!"
     else:
         return f"Hello, {name}!"
 
